@@ -25,16 +25,9 @@
 
 
         <!--E4-sueldos-->
-
         <section class="mb-5">
             <h2>4. Sueldo</h2>
-            <p>
-                Seleccionar puesto, nivel y horas trabajadas
-                para calcular el sueldo.
-            </p>
-
             <table class="table table-bordered text-center">
-
                 <thead>
                     <tr>
                         <th>Puesto</th>
@@ -50,7 +43,6 @@
                         <td>$120</td>
                         <td>$140</td>
                     </tr>
-
                     <tr>
                         <td>Programador</td>
                         <td>$150</td>
@@ -84,10 +76,10 @@
 
 
             <label>Horas</label>
-            <input type="number" id="horas" class="form-control mb-2" value="40">
+            <input type="text" id="horas" class="form-control mb-2" value="40">
 
             <label>Total</label>
-            <input type="text" id="total" class="form-control mb-3" readonly>
+            <input type="text" id="total" class="form-control mb-3" >
 
             <button class="btn btn-success"
                     onclick="calcularSueldo()">
@@ -112,7 +104,7 @@
             </select>
 
             <label>Hora</label>
-            <input type="time" id="hora" class="form-control mb-2">
+            <input type="text" id="hora" class="form-control mb-2">
             <label>Evento</label>
             <input type="text"  id="evento" class="form-control mb-2" placeholder="Nombre del evento">
             <label>Descripción</label>
