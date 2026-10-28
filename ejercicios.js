@@ -45,7 +45,7 @@ function imprimir_arregloB(){
     let cadenaB = "";
     for(let i = 0; i < arregloB.length; i++){
         for(let j = 0; j < arregloB[i].length; j++){
-            cadenaB +='<div class="border p-3 m-1 d-inline-block bg-black ">' +arregloB[i][j] + '</div>';
+            cadenaB +='<div style="border p-3 m-1 d-inline-block bg-black ">' +arregloB[i][j] + '</div>';
 
         }
         cadenaB += "<br>";
